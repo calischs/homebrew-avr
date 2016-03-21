@@ -10,9 +10,9 @@ AVR is a popular family of microcontrollers, used for example in the
 Current Versions
 ----------------
 
-- `gcc 4.9.3` and `gcc 4.8.5`
+- `gcc 4.9.3` and `gcc 4.8.5` and 'gcc 5.3.0'
 - `binutils 2.24.0`
-- `avr-libc 1.8.1`
+- `avr-libc 1.8.1` and 'avr-libc 2.0.0'
 - `gdb 7.8.2`
 
 Installing homebrew-avr formulae
@@ -62,6 +62,8 @@ $ brew unlink avr-gccXX avr-libcXX
 # Then link the latest version
 $ brew link avr-gcc avr-libc
 ```
+
+For newer XMega devices (e.g. the 8E5), use avr-libc20 and avr-gcc53.
 
 Docs
 ----
