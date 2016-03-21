@@ -3,12 +3,12 @@ require 'formula'
 # print avr-gcc's builtin include paths
 # `avr-gcc -print-prog-name=cc1plus` -v
 
-class AvrGcc < Formula
+class AvrGcc53 < Formula
 
     homepage 'http://www.gnu.org/software/gcc/gcc.html'
     url 'ftp://gcc.gnu.org/pub/gcc/releases/gcc-5.3.0/gcc-5.3.0.tar.bz2'
     mirror 'http://ftpmirror.gnu.org/gcc/gcc-5.3.0/gcc-5.3.0.tar.bz2'
-    sha256 '2332b2a5a321b57508b9031354a8503af6fdfb868b8c1748d33028d100a8b67e'
+    sha256 ''
 
     depends_on 'gmp'
     depends_on 'libmpc'
